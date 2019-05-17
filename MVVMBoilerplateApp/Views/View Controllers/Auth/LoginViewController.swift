@@ -13,7 +13,8 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationItem.title = Localify.get("login.title")
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
 

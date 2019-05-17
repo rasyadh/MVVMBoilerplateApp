@@ -49,6 +49,7 @@
 "toolbar.cancel" = "Cancel";
 
 // MARK: - Login Screen
+"login.title" = "Login";
 "login.field.placeholder.email" = "Email";
 "login.field.placeholder.password" = "Password";
 "login.button.login" = "Log In";

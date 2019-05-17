@@ -12,9 +12,9 @@ struct NotifName {
     static let authLogin = Notification.Name("auth_login")
     static let authLogout = Notification.Name("auth_logout")
     
-    static let getProducts = Notification.Name("get_products")
-    
     static let getUserProfile = Notification.Name("get_user_profile")
+    
+    static let getProducts = Notification.Name("get_products")
     
     static let newNotificationAvailable = Notification.Name("new_notification_available")
 }

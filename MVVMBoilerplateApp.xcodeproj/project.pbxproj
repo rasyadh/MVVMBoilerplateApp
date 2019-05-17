@@ -31,6 +31,9 @@
 		2423D7A3228EFAF700F7CB65 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2423D7A5228EFAF700F7CB65 /* Profile.storyboard */; };
 		2423D7A6228EFAFE00F7CB65 /* Browse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2423D7A8228EFAFE00F7CB65 /* Browse.storyboard */; };
 		2423D7AB228EFBCF00F7CB65 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2423D7AD228EFBCF00F7CB65 /* Localizable.strings */; };
+		244B07CE228F0472008AF299 /* Apify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B07CD228F0472008AF299 /* Apify.swift */; };
+		244B07D0228F059D008AF299 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B07CF228F059D008AF299 /* User.swift */; };
+		244B07D2228F061C008AF299 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B07D1228F061C008AF299 /* Gender.swift */; };
 		E0922869EE9D10D58C378016 /* Pods_MVVMBoilerplateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D13A7ACF1EB5765D3A724E3 /* Pods_MVVMBoilerplateApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,9 @@
 		2423D7A4228EFAF700F7CB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 		2423D7A7228EFAFE00F7CB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Browse.storyboard; sourceTree = "<group>"; };
 		2423D7AC228EFBCF00F7CB65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		244B07CD228F0472008AF299 /* Apify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apify.swift; sourceTree = "<group>"; };
+		244B07CF228F059D008AF299 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		244B07D1228F061C008AF299 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		6D13A7ACF1EB5765D3A724E3 /* Pods_MVVMBoilerplateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMBoilerplateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		749DCC23B2DC8D2414FA1951 /* Pods-MVVMBoilerplateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMBoilerplateApp.release.xcconfig"; path = "Target Support Files/Pods-MVVMBoilerplateApp/Pods-MVVMBoilerplateApp.release.xcconfig"; sourceTree = "<group>"; };
 		97A4592E0D5D254511D3CA39 /* Pods-MVVMBoilerplateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMBoilerplateApp.debug.xcconfig"; path = "Target Support Files/Pods-MVVMBoilerplateApp/Pods-MVVMBoilerplateApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +128,8 @@
 		2423D76A228EE8DD00F7CB65 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				244B07CF228F059D008AF299 /* User.swift */,
+				244B07D1228F061C008AF299 /* Gender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,8 +212,9 @@
 			isa = PBXGroup;
 			children = (
 				2423D790228EF5AB00F7CB65 /* Alertify.swift */,
-				2423D792228EF5E900F7CB65 /* Notify.swift */,
+				244B07CD228F0472008AF299 /* Apify.swift */,
 				2423D794228EF64200F7CB65 /* Localify.swift */,
+				2423D792228EF5E900F7CB65 /* Notify.swift */,
 				2423D796228EF69900F7CB65 /* Storify.swift */,
 			);
 			path = Generals;
@@ -416,10 +425,13 @@
 				2423D78F228EF57A00F7CB65 /* UIViewExtension.swift in Sources */,
 				2423D793228EF5E900F7CB65 /* Notify.swift in Sources */,
 				2423D77F228EEE9400F7CB65 /* TabBarViewController.swift in Sources */,
+				244B07CE228F0472008AF299 /* Apify.swift in Sources */,
 				2423D758228EE82400F7CB65 /* AppDelegate.swift in Sources */,
 				2423D787228EF3B100F7CB65 /* UIImageExtension.swift in Sources */,
+				244B07D2228F061C008AF299 /* Gender.swift in Sources */,
 				2423D78D228EF4F300F7CB65 /* UIViewControllerExtension.swift in Sources */,
 				2423D78B228EF4C200F7CB65 /* UITextViewExtension.swift in Sources */,
+				244B07D0228F059D008AF299 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

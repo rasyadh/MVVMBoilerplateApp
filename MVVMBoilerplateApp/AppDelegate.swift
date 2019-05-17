@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
+import SVProgressHUD
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -49,6 +51,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Private Function
     private func configureThirdPartyServices(_ app: UIApplication, _ options: [UIApplication.LaunchOptionsKey: Any]?) {
         
+        // IQKeyboardManager Setup
+        IQKeyboardManager.shared.enable = true
+        
+        // SVProgessHUD
+        SVProgressHUD.setDefaultStyle(.light)
+        SVProgressHUD.setDefaultMaskType(.clear)
     }
     
     private func configureAppEnvironment() {
